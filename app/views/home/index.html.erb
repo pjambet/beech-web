@@ -1,3 +1,43 @@
-Hey
+<section id="container">
 
-<%= link_to 'About', page_path('about') %>
+  <header id="hero">
+    <article class="wrapper">
+      <div id="intro">
+        <h1>
+          <%= image_tag 'beech-icon.png' %>Beech
+        </h1>
+        <p>Vous pouvez désormais partager vos bières<br/>avec vos amis et gagner des badges.</p>
+        <a class="button" href="#">Téléchargez l'application gratuite</a>
+      </div>
+      <%= image_tag 'beech-app.png', class: 'beech-app'%>
+    </article>
+  </header>
+
+  <section id="features">
+    <article class="wrapper">
+      <ul>
+        <li class="beer">
+          <h2>Une bière, un beech</h2>
+          <p>Vous pouvez désormais partager vos bières avec vos amis et gagner des badges.</p>
+        </li>
+        <li class="beech">
+          <h2>Ça beech !</h2>
+          <p>Partagez une bière en un touch, et hop vous avez beeché votre première bière.</p>
+        </li>
+        <li class="friends">
+          <h2>Des potes, des beechs</h2>
+          <p>Suivez vos amis et découvrez de nouvelles bières.</p>
+        </li>
+      </ul>
+      <p class="download">Beech est disponible sur iPhone et iPod touch.<a href=""><%= image_tag 'appstore.png' %></a></p>
+    </article>
+  </section>
+
+  <footer>
+    <article class="wrapper">
+      <p>Made with love by Pierre and Luc</p>
+    </article>
+  </footer>
+
+</section>
+

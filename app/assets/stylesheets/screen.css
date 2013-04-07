@@ -1,0 +1,155 @@
+* {
+	outline: none;
+}
+
+html, input, textarea, button {
+ 	-webkit-text-size-adjust: 100%;
+	-webkit-font-smoothing: antialiased;
+}
+
+body {
+	font-family: "Proxima Nova", "proxima-nova", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+	font-size: 16px;
+	color: #333;
+	margin: 0;
+	background: white;
+}
+
+a {
+	color: #333;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a:hover {
+	color: #999;
+}
+
+img {
+	border: 0;
+	padding: 0;
+	margin: 0;
+	display: block;
+}
+
+.wrapper {
+	width: 900px;
+	margin: 0 auto;
+	padding: 0 20px;
+	position: relative;
+}
+
+/* HERO */
+
+#hero {
+	background: #eeeeee;
+	overflow: hidden;
+}
+
+#hero #intro {
+	max-width: 600px;
+	padding: 150px 0 130px 60px;
+	font-size: 1.4em;
+}
+
+#hero #intro h1 {
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	line-height: 2.3em;
+	font-size: 1.4em;
+	font-weight: lighter;
+}
+
+#hero #intro h1 img {
+	float: left;
+	padding: 0 10px 0 0;
+}
+
+#hero #intro p {
+	line-height: 1.3em;
+	padding: 0;
+	margin: 20px 0 50px;
+	color: #666;
+}
+
+#hero img.beech-app {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+
+#hero .button {
+	background: #f88649;
+	color: white;
+	border-radius: 3px;
+	font-size: 0.9em;
+	padding: 17px 18px 15px;
+}
+
+/* FEATURES */
+
+#features ul {
+	margin: 50px 0 0;
+	padding: 0;
+	overflow: hidden;
+	list-style: none;
+}
+
+#features ul li {
+	width: 230px;
+	padding: 0;
+	margin: 0;
+	float: left;
+	padding: 10px 10px 0 60px;
+	font-size: 1em;
+}
+
+#features ul li.beer {
+	background: url(../images/1.png) no-repeat 26px 2px;
+}
+
+#features ul li.beech {
+	background: url(../images/2.png) no-repeat 26px 2px;
+}
+
+#features ul li.friends {
+	background: url(../images/3.png) no-repeat 26px 2px;
+}
+
+#features ul li h2 {
+	font-weight: normal;
+	margin: 0 0 6px;
+	padding: 0;
+	font-size: 1.2em;
+}
+
+#features ul li p {
+	line-height: 1.4em;
+	color: #777;
+	margin: 0;
+	font-size: 1em;
+	padding: 0;
+}
+
+#features p.download {
+	text-align: center;
+	font-size: 1.5em;
+	margin: 50px 0;
+	padding: 50px 0 0;
+	border-top: 1px solid #d6d6d6;
+}
+
+#features p.download a {
+	margin: 20px auto;
+	width: 172px;
+	display: block;
+}
+
+/* FOOTER */
+
+footer p {
+	border-top: 1px solid #d6d6d6;
+	text-align: center;
+	padding: 20px 0;
+}

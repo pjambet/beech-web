@@ -1,0 +1,18 @@
+@media screen and (max-width: 478px) 	{
+	body { font-size: 13px; }
+}
+
+@media screen and (max-width: 740px) 	{
+	body { font-size: 13px; }
+
+}
+
+@media screen and (max-width: 1024px) {
+
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	width: auto\9; /* ie8 */
+}
